@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Tailwind</title>
+        <link rel="stylesheet" href="./output.css">
+</head>    
+<body class="bg-gradient-to-r from-black  to-violet-950">
+    <form action="" class="bg-gray-100 w-80 mx-auto my-52  rounded-lg p-6">
+            
+        <input class="border border-gray-400 w-full px-3 py-2 mb-4 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600" type="text" placeholder="Name"> 
+
+        <input class="border border-gray-400 w-full px-3 py-2 mb-4 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600 invalid:focus:ring-red-600 peer" type="email" placeholder="Email">
+        <p class="text-red-400  hidden peer-invalid:block mb-4">This email is invalid</p>
+
+        <input class="border border-gray-400 w-full px-3 py-2 mb-4 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600" type="password" placeholder="Password"> 
+
+        <input class="cursor-pointer bg-black w-full my-3 py-2 rounded-md text-white hover:bg-violet-600" type="submit" value="Send">
+
+
+    </form>
+</body>
+</html>
